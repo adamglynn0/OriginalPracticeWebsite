@@ -5,5 +5,7 @@ nav {
 header {
     color: aqua;
     background-color: cornflowerblue;
+    clear: left;
     text-align: center;
+    padding: 1em;
 }
