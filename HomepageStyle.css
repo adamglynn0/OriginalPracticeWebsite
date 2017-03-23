@@ -1,29 +1,35 @@
-
-div.container{
+div.container {
     width: 100%;
-    border: 1px solid darkslategray;
-}
-
-nav {
-    float: left;
-}
-
-nav.leftnotes ul {
-    list-style-type: none;
-    padding: 1em;
+    border: 1px solid gray;
 }
 
 header, footer {
+    padding: 2em;
     color: white;
     background-color: black;
     clear: left;
     text-align: center;
-    padding: 2em;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
 }
 
 article {
-    margin-left: 180px;
-    border-left: 1px solid darkslategray;
+    margin-left: 170px;
+    border-left: 1px solid gray;
     padding: 1em;
     overflow: hidden;
 }
