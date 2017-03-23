@@ -1,11 +1,29 @@
+
+div.container{
+    width: 100%;
+    border: 1px solid darkslategray;
+}
+
 nav {
     float: left;
 }
 
-header {
-    color: aqua;
-    background-color: cornflowerblue;
+nav.leftnotes ul {
+    list-style-type: none;
+    padding: 1em;
+}
+
+header, footer {
+    color: white;
+    background-color: black;
     clear: left;
     text-align: center;
+    padding: 2em;
+}
+
+article {
+    margin-left: 180px;
+    border-left: 1px solid darkslategray;
     padding: 1em;
+    overflow: hidden;
 }
